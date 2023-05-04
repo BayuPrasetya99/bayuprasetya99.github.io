@@ -145,3 +145,15 @@ footer {
 		}
 	}
 }
+.container {
+	width: 100px;
+	height: 100px;
+	position: relative;
+  }
+  
+  .container img {
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+  }
